@@ -5,7 +5,7 @@ This project analyzes 5.6 million rows of historical trip data to identify diffe
 
 ## Technical Achievements
 * **Big Data Management:** Processed a **5.6 million row population**—significantly exceeding Excel's standard 1-million-row limit—by utilizing the **Excel Data Model (Power Pivot)**.
-* **Data Integrity:** Developed a classification system for "Standard Trips" vs. "System Errors" (filtering out trips >24hrs or <1min) to ensure 99.9% accuracy in behavioral metrics.
+* **Data Integrity:** Developed a classification system for "Standard Trips" vs. "System Errors" (filtering out trips >24hrs as system errors/theft, trips >8hrs as overnight/extreme use, and else as standard trip) to ensure 99.9% accuracy in behavioral metrics.
 * **Advanced Analytics:** Used Power Query for ETL (Extract, Transform, Load) and the Haversine formula to calculate ride distances accurately.
 
 ## Project Files
